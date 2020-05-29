@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Simple-React-caro/static/css/main.de1713d7.chunk.css",
+    "main.js": "/Simple-React-caro/static/js/main.09acba9b.chunk.js",
+    "main.js.map": "/Simple-React-caro/static/js/main.09acba9b.chunk.js.map",
+    "runtime-main.js": "/Simple-React-caro/static/js/runtime-main.127ae498.js",
+    "runtime-main.js.map": "/Simple-React-caro/static/js/runtime-main.127ae498.js.map",
+    "static/js/2.64c609ae.chunk.js": "/Simple-React-caro/static/js/2.64c609ae.chunk.js",
+    "static/js/2.64c609ae.chunk.js.map": "/Simple-React-caro/static/js/2.64c609ae.chunk.js.map",
+    "index.html": "/Simple-React-caro/index.html",
+    "precache-manifest.da1e63e9e1e422661f6f75c278e56292.js": "/Simple-React-caro/precache-manifest.da1e63e9e1e422661f6f75c278e56292.js",
+    "service-worker.js": "/Simple-React-caro/service-worker.js",
+    "static/css/main.de1713d7.chunk.css.map": "/Simple-React-caro/static/css/main.de1713d7.chunk.css.map",
+    "static/js/2.64c609ae.chunk.js.LICENSE.txt": "/Simple-React-caro/static/js/2.64c609ae.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.127ae498.js",
+    "static/js/2.64c609ae.chunk.js",
+    "static/css/main.de1713d7.chunk.css",
+    "static/js/main.09acba9b.chunk.js"
+  ]
+}
