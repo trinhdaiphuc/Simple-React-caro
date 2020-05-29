@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## View my website: https://trinhdaiphuc.github.io/Simple-React-caro/
+
 ## Available Scripts
 
 In the project directory, you can run:
