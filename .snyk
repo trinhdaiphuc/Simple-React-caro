@@ -1,0 +1,517 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-scripts > babel-preset-react-app > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > babel-preset-react-app > @babel/core > lodash
+    - react-scripts > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > babel-jest > @jest/transform > @babel/core > lodash
+    - react-scripts > jest-environment-jsdom-fourteen > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest-environment-jsdom-fourteen > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > jest > jest-cli > jest-config > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > babel-jest >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runtime >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runtime >
+          jest-config > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-config > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          babel-jest > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runtime >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > jest-jasmine2 >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom
+          > @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > jest-environment-node
+          > @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          jest-runtime > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > jest-jasmine2 >
+          jest-runtime > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer >
+          jest-runtime > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-runtime > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          jest-runtime > jest-config > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-runtime > jest-config > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runtime >
+          jest-config > babel-jest > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-config > babel-jest > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          jest-runtime > @jest/environment > @jest/transform > @babel/core >
+          lodash
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > jest-jasmine2 >
+          jest-runtime > @jest/environment > @jest/transform > @babel/core >
+          lodash
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer >
+          jest-runtime > @jest/environment > @jest/transform > @babel/core >
+          lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-runtime > @jest/environment > @jest/transform > @babel/core >
+          lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          jest-jasmine2 > @jest/environment > @jest/transform > @babel/core >
+          lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-jasmine2 > @jest/environment > @jest/transform > @babel/core >
+          lodash
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer >
+          jest-runner > @jest/environment > @jest/transform > @babel/core >
+          lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          jest-environment-jsdom > @jest/environment > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          jest-environment-node > @jest/environment > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer >
+          jest-runner > jest-runtime > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core >
+          lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-jasmine2 > jest-runtime > jest-config > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          jest-runtime > jest-config > babel-jest > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-runtime > jest-config > babel-jest > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer >
+          jest-runner > jest-runtime > @jest/environment > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          @jest/test-sequencer > jest-runtime > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runtime >
+          jest-config > jest-jasmine2 > @jest/environment > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-config > jest-jasmine2 > @jest/environment > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer >
+          jest-runner > jest-jasmine2 > @jest/environment > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          @jest/test-sequencer > jest-runner > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runtime >
+          jest-config > jest-environment-jsdom > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-config > jest-environment-jsdom > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runtime >
+          jest-config > jest-environment-node > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-config > jest-environment-node > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-config > jest-jasmine2 > jest-runtime > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer >
+          jest-runner > jest-jasmine2 > jest-runtime > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          @jest/test-sequencer > jest-runner > jest-runtime > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-config > @jest/test-sequencer > jest-runtime > @jest/transform >
+          @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-jasmine2 > jest-runtime > jest-config > babel-jest >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-config > jest-jasmine2 > jest-runtime > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > jest-config > @jest/test-sequencer >
+          jest-runner > jest-jasmine2 > jest-runtime > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          @jest/test-sequencer > jest-runner > jest-runtime > @jest/environment
+          > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-config > @jest/test-sequencer > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-config > @jest/test-sequencer > jest-runtime > @jest/environment
+          > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          jest-runtime > jest-config > jest-jasmine2 > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-runtime > jest-config > jest-jasmine2 > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment
+          > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runtime >
+          jest-config > @jest/test-sequencer > jest-runner > @jest/environment >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          jest-runtime > jest-config > jest-environment-jsdom >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-runtime > jest-config > jest-environment-jsdom >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          jest-runtime > jest-config > jest-environment-node > @jest/environment
+          > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-runtime > jest-config > jest-environment-node > @jest/environment
+          > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime >
+          @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-config >
+          @jest/test-sequencer > jest-runner > jest-jasmine2 > jest-runtime >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runtime >
+          jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          jest-runtime > jest-config > @jest/test-sequencer > jest-runner >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-jasmine2 > jest-runtime > jest-config > jest-environment-jsdom >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > jest-runner > jest-jasmine2 > jest-runtime > jest-config > jest-environment-node > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > jest-runner >
+          jest-jasmine2 > jest-runtime > jest-config > jest-environment-node >
+          @jest/environment > @jest/transform > @babel/core > lodash
+    - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
+        patched: '2025-12-19T10:23:44.446Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > jest-cli > @jest/core > @jest/reporters >
+          jest-runtime > jest-config > @jest/test-sequencer > jest-runner >
+          jest-jasmine2 > @jest/environment > @jest/transform > @babel/core >
+          lodash
